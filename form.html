@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="./reponse.html" name="Biodata" target="_blank" method="">
+        <fieldset>
+            <legend>Biodata</legend>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+            <label for="pass">Password</label>
+             <input  id="name" name="password" placeholder="Enter your password" required><br><br>
+             <label for="dob" > DOB</label>
+              <input type="data" id="dob" name="dob" placeholder="Enter your dob" required
+              ><br><br>
+              <label for="email">Email:</label>
+               <input type="email" id="email" name="email"  required><br>
+               <label for="tel">Phone</label>
+               <input type="data" id="number" name="number"><br>
+               <br>
+               <textarea name="text" id="add" rows="5">Address</textarea><br>
+               <label for="Gender">Gender</label>
+               <input type="radio" id="male" name="gender">
+                <label for="male">Male</label>
+                 <label for="gender">Gender</label>
+               <input type="radio" id="male" name="gender">
+                <label for="female">female</label><br><br>
+                <label for="check"> Vechile u have</label>
+                <input type="checkbox" id="check" name="vechile1">
+                <label for="check">motarcycle</label>
+                <input type="checkbox" id="check" name="vechile2">
+                <label for="check"> car</label><br><br>
+                <label for="select"> select yoar programing lan </label>
+
+                <select name="">
+                <option>Select your laanguage</option>
+                <optgroup label="programing laanguage">
+                <option value="C++">C++</option>
+                <optgroup label="frontend technology"></optgroup>
+                <option value="Java">Java</option> </optgroup>
+                <option value="java s"> java script</option></select><br><br>
+                <label for="url"> URL:</label>
+                <input type="url" id="url" name="url" placeholder="required">
+
+                <label for="file" > File Upload</label>
+                <input type="file" id="file" name="file">
+                <br><br>
+                <label for="attempt" > attempt</label>
+                <input type="number" id="attempt" name="attempt" min="1" max="10">
+                <label for="appoint" > appoint</label>
+                <input type="number"  id="appoint" name="appoint " required><br><br>
+                <input type="submit">
+                <input type="reset">
+
+        </fieldset>
+    </form>
+</body>
+</html>
