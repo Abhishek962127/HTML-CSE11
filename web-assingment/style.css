@@ -1,0 +1,13 @@
+.box{
+    background-color: yellow;
+    margin: 11px ;
+    padding: 50px 500px;
+    text-decoration: dashed;
+    
+ }
+.box1{
+    padding: 20px;
+    color: rgb(33, 5, 5);
+    background-color:rgba(128, 6, 242, 0.92);
+    margin: 20px 90px;
+}
